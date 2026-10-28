@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card_glass"
+            android:padding="16dp" android:layout_marginBottom="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Experiment Reports &amp; Exports"
+                android:textColor="@color/colorCyan" android:textSize="18sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Generate and view corrosion analysis reports based on recorded sweep scan data."
+                android:textColor="@color/colorTextSecondary" android:textSize="12sp"
+                android:layout_marginTop="6dp" android:lineSpacingMultiplier="1.4" />
+        </LinearLayout>
+
+        <!-- Summary card -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card_glass"
+            android:padding="16dp" android:layout_marginBottom="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="📊  Summary Report" android:textColor="@color/colorCyan"
+                android:textSize="14sp" android:textStyle="bold" android:layout_marginBottom="12dp" />
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="Total Experiments"
+                    android:textColor="@color/colorTextSecondary" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_report_total" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="148"
+                    android:textColor="@color/colorCyan" android:textSize="12sp" android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="Avg. Corrosion Rate"
+                    android:textColor="@color/colorTextSecondary" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_report_avg_rate" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="11.3 mpy"
+                    android:textColor="@color/colorCyanLight" android:fontFamily="monospace"
+                    android:textSize="12sp" android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="High Risk Count"
+                    android:textColor="@color/colorTextSecondary" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_report_high_risk" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="23 runs"
+                    android:textColor="@color/colorDanger" android:textSize="12sp" android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Generate PDF button -->
+        <Button android:id="@+id/btn_generate_pdf" android:layout_width="match_parent"
+            android:layout_height="52dp" android:text="📄  Generate PDF Report"
+            android:textColor="@color/white" android:textStyle="bold"
+            android:background="@drawable/btn_purple" android:layout_marginBottom="12dp" />
+
+        <!-- Recent exports -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card_glass"
+            android:padding="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Recent Exports" android:textColor="@color/colorPurple"
+                android:textSize="14sp" android:textStyle="bold" android:layout_marginBottom="12dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• CorrosionReport_Jan2026_CarbonSteel.pdf — 2.4 MB\n• CorrosionReport_Dec2025_SS316L.pdf — 1.8 MB\n• TafelData_Nov2025_AllC276.csv — 0.6 MB"
+                android:textColor="@color/colorTextSecondary" android:textSize="12sp"
+                android:lineSpacingMultiplier="1.7" android:fontFamily="monospace" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

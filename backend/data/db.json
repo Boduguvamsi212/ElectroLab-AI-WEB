@@ -1,0 +1,2833 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "email": "alex@corrosion.lab",
+      "password": "password123",
+      "name": "Dr. Alex Carter",
+      "role": "Senior Chemist",
+      "institution": "ElectroLab Research Center",
+      "avatar": ""
+    },
+    {
+      "id": "u_1784028002440",
+      "email": "vamsibodugu384@gmail.com",
+      "password": "1234",
+      "name": "vamsi",
+      "role": "Researcher",
+      "institution": "ElectroLab Research Center"
+    },
+    {
+      "id": "u_1787417082821",
+      "email": "buntyvamsi68@gmail.com",
+      "password": "1234",
+      "name": "Bodugu Vamsi",
+      "role": "Lab Manager",
+      "institution": "ElectroLab Research Center"
+    },
+    {
+      "id": "u_1792947731526",
+      "email": "ravikumarbadani@gmail.com",
+      "password": "123456",
+      "name": "rockyyyy",
+      "role": "Researcher",
+      "institution": "ElectroLab Research Center"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "run_148",
+      "runNumber": "#148",
+      "material": "Carbon Steel 1018",
+      "initVoltage": -0.25,
+      "finalVoltage": 0.25,
+      "scanRate": 0.166,
+      "pH": 7.15,
+      "temperature": 25,
+      "current": 1.25,
+      "rate": "12.42 mpy",
+      "risk": "Medium Pitting Risk",
+      "confidence": "95.4%",
+      "passivation": "Partial Breakdown",
+      "timestamp": "2026-07-14T12:30:00Z"
+    },
+    {
+      "id": "run_147",
+      "runNumber": "#147",
+      "material": "Stainless Steel 316L",
+      "initVoltage": -0.5,
+      "finalVoltage": 0.5,
+      "scanRate": 0.166,
+      "pH": 6.8,
+      "temperature": 25,
+      "current": 0.05,
+      "rate": "0.14 mpy",
+      "risk": "Low Corrosion Risk",
+      "confidence": "98.1%",
+      "passivation": "Stable Film",
+      "timestamp": "2026-07-14T10:15:00Z"
+    },
+    {
+      "id": "run_146",
+      "runNumber": "#146",
+      "material": "Alloy C276 (Hastelloy)",
+      "initVoltage": -0.4,
+      "finalVoltage": 0.6,
+      "scanRate": 0.2,
+      "pH": 2.5,
+      "temperature": 50,
+      "current": 0.85,
+      "rate": "3.18 mpy",
+      "risk": "Medium Corrosion Risk",
+      "confidence": "94.2%",
+      "passivation": "Active Dissolution",
+      "timestamp": "2026-07-13T16:45:00Z"
+    },
+    {
+      "id": "run_1784028076525",
+      "runNumber": "#149",
+      "material": "Carbon Steel 1018",
+      "initVoltage": -0.25,
+      "finalVoltage": 0.25,
+      "scanRate": 0.166,
+      "pH": 7.15,
+      "temperature": 25,
+      "current": 1,
+      "rate": "0.305 mm/year (12 mpy)",
+      "risk": "High Pitting Risk",
+      "confidence": "97.8%",
+      "passivation": "Partial Passivation Breakdown",
+      "points": [
+        {
+          "voltage": -0.25,
+          "current": 0.043148,
+          "logCurrent": -1.365
+        },
+        {
+          "voltage": -0.24,
+          "current": 0.052482,
+          "logCurrent": -1.28
+        },
+        {
+          "voltage": -0.23,
+          "current": 0.063836,
+          "logCurrent": -1.195
+        },
+        {
+          "voltage": -0.219,
+          "current": 0.077645,
+          "logCurrent": -1.11
+        },
+        {
+          "voltage": -0.209,
+          "current": 0.094441,
+          "logCurrent": -1.025
+        },
+        {
+          "voltage": -0.199,
+          "current": 0.11487,
+          "logCurrent": -0.94
+        },
+        {
+          "voltage": -0.189,
+          "current": 0.13972,
+          "logCurrent": -0.855
+        },
+        {
+          "voltage": -0.179,
+          "current": 0.16995,
+          "logCurrent": -0.77
+        },
+        {
+          "voltage": -0.168,
+          "current": 0.20671,
+          "logCurrent": -0.685
+        },
+        {
+          "voltage": -0.158,
+          "current": 0.25142,
+          "logCurrent": -0.6
+        },
+        {
+          "voltage": -0.148,
+          "current": 0.30581,
+          "logCurrent": -0.515
+        },
+        {
+          "voltage": -0.138,
+          "current": 0.37197,
+          "logCurrent": -0.429
+        },
+        {
+          "voltage": -0.128,
+          "current": 0.45243,
+          "logCurrent": -0.344
+        },
+        {
+          "voltage": -0.117,
+          "current": 0.55031,
+          "logCurrent": -0.259
+        },
+        {
+          "voltage": -0.107,
+          "current": 0.66935,
+          "logCurrent": -0.174
+        },
+        {
+          "voltage": -0.097,
+          "current": 0.81415,
+          "logCurrent": -0.089
+        },
+        {
+          "voltage": -0.087,
+          "current": 0.99027,
+          "logCurrent": -0.004
+        },
+        {
+          "voltage": -0.077,
+          "current": 1.2045,
+          "logCurrent": 0.081
+        },
+        {
+          "voltage": -0.066,
+          "current": 1.465,
+          "logCurrent": 0.166
+        },
+        {
+          "voltage": -0.056,
+          "current": 1.782,
+          "logCurrent": 0.251
+        },
+        {
+          "voltage": -0.046,
+          "current": 2.1675,
+          "logCurrent": 0.336
+        },
+        {
+          "voltage": -0.036,
+          "current": 2.6363,
+          "logCurrent": 0.421
+        },
+        {
+          "voltage": -0.026,
+          "current": 3.2066,
+          "logCurrent": 0.506
+        },
+        {
+          "voltage": -0.015,
+          "current": 3.9003,
+          "logCurrent": 0.591
+        },
+        {
+          "voltage": -0.005,
+          "current": 4.744,
+          "logCurrent": 0.676
+        },
+        {
+          "voltage": 0.005,
+          "current": 5.7703,
+          "logCurrent": 0.761
+        },
+        {
+          "voltage": 0.015,
+          "current": 7.0185,
+          "logCurrent": 0.846
+        },
+        {
+          "voltage": 0.026,
+          "current": 8.5368,
+          "logCurrent": 0.931
+        },
+        {
+          "voltage": 0.036,
+          "current": 10.384,
+          "logCurrent": 1.016
+        },
+        {
+          "voltage": 0.046,
+          "current": 12.63,
+          "logCurrent": 1.101
+        },
+        {
+          "voltage": 0.056,
+          "current": 15.362,
+          "logCurrent": 1.186
+        },
+        {
+          "voltage": 0.066,
+          "current": 18.685,
+          "logCurrent": 1.271
+        },
+        {
+          "voltage": 0.077,
+          "current": 22.727,
+          "logCurrent": 1.357
+        },
+        {
+          "voltage": 0.087,
+          "current": 27.643,
+          "logCurrent": 1.442
+        },
+        {
+          "voltage": 0.097,
+          "current": 33.623,
+          "logCurrent": 1.527
+        },
+        {
+          "voltage": 0.107,
+          "current": 40.897,
+          "logCurrent": 1.612
+        },
+        {
+          "voltage": 0.117,
+          "current": 49.744,
+          "logCurrent": 1.697
+        },
+        {
+          "voltage": 0.128,
+          "current": 60.505,
+          "logCurrent": 1.782
+        },
+        {
+          "voltage": 0.138,
+          "current": 73.593,
+          "logCurrent": 1.867
+        },
+        {
+          "voltage": 0.148,
+          "current": 89.513,
+          "logCurrent": 1.952
+        },
+        {
+          "voltage": 0.158,
+          "current": 108.88,
+          "logCurrent": 2.037
+        },
+        {
+          "voltage": 0.168,
+          "current": 132.43,
+          "logCurrent": 2.122
+        },
+        {
+          "voltage": 0.179,
+          "current": 161.08,
+          "logCurrent": 2.207
+        },
+        {
+          "voltage": 0.189,
+          "current": 195.92,
+          "logCurrent": 2.292
+        },
+        {
+          "voltage": 0.199,
+          "current": 238.31,
+          "logCurrent": 2.377
+        },
+        {
+          "voltage": 0.209,
+          "current": 289.86,
+          "logCurrent": 2.462
+        },
+        {
+          "voltage": 0.219,
+          "current": 352.56,
+          "logCurrent": 2.547
+        },
+        {
+          "voltage": 0.23,
+          "current": 428.83,
+          "logCurrent": 2.632
+        },
+        {
+          "voltage": 0.24,
+          "current": 521.59,
+          "logCurrent": 2.717
+        },
+        {
+          "voltage": 0.25,
+          "current": 634.43,
+          "logCurrent": 2.802
+        }
+      ],
+      "timestamp": "2026-07-14T11:21:16.527Z"
+    },
+    {
+      "id": "run_1792947651448",
+      "runNumber": "#150",
+      "material": "Copper-Nickel 90/10",
+      "initVoltage": -0.25,
+      "finalVoltage": 0.25,
+      "scanRate": 0.166,
+      "pH": 7.15,
+      "temperature": 25,
+      "current": 1,
+      "rate": "0.076 mm/year (3 mpy)",
+      "risk": "Medium Corrosion Risk",
+      "confidence": "95.1%",
+      "passivation": "Stable Passive Film",
+      "points": [
+        {
+          "voltage": -0.25,
+          "current": 0,
+          "logCurrent": -10
+        },
+        {
+          "voltage": -0.24,
+          "current": 0.0000019709,
+          "logCurrent": -5.705
+        },
+        {
+          "voltage": -0.23,
+          "current": 0.0000040176,
+          "logCurrent": -5.396
+        },
+        {
+          "voltage": -0.219,
+          "current": 0.0000062188,
+          "logCurrent": -5.206
+        },
+        {
+          "voltage": -0.209,
+          "current": 0.0000086594,
+          "logCurrent": -5.063
+        },
+        {
+          "voltage": -0.199,
+          "current": 0.000011433,
+          "logCurrent": -4.942
+        },
+        {
+          "voltage": -0.189,
+          "current": 0.000014647,
+          "logCurrent": -4.834
+        },
+        {
+          "voltage": -0.179,
+          "current": 0.000018424,
+          "logCurrent": -4.735
+        },
+        {
+          "voltage": -0.168,
+          "current": 0.00002291,
+          "logCurrent": -4.64
+        },
+        {
+          "voltage": -0.158,
+          "current": 0.000028277,
+          "logCurrent": -4.549
+        },
+        {
+          "voltage": -0.148,
+          "current": 0.000034732,
+          "logCurrent": -4.459
+        },
+        {
+          "voltage": -0.138,
+          "current": 0.000042524,
+          "logCurrent": -4.371
+        },
+        {
+          "voltage": -0.128,
+          "current": 0.000051951,
+          "logCurrent": -4.284
+        },
+        {
+          "voltage": -0.117,
+          "current": 0.000063377,
+          "logCurrent": -4.198
+        },
+        {
+          "voltage": -0.107,
+          "current": 0.000077242,
+          "logCurrent": -4.112
+        },
+        {
+          "voltage": -0.097,
+          "current": 0.000094078,
+          "logCurrent": -4.027
+        },
+        {
+          "voltage": -0.087,
+          "current": 0.00011453,
+          "logCurrent": -3.941
+        },
+        {
+          "voltage": -0.077,
+          "current": 0.0001394,
+          "logCurrent": -3.856
+        },
+        {
+          "voltage": -0.066,
+          "current": 0.00016962,
+          "logCurrent": -3.771
+        },
+        {
+          "voltage": -0.056,
+          "current": 0.00020637,
+          "logCurrent": -3.685
+        },
+        {
+          "voltage": -0.046,
+          "current": 0.00025106,
+          "logCurrent": -3.6
+        },
+        {
+          "voltage": -0.036,
+          "current": 0.00030541,
+          "logCurrent": -3.515
+        },
+        {
+          "voltage": -0.026,
+          "current": 0.00037152,
+          "logCurrent": -3.43
+        },
+        {
+          "voltage": -0.015,
+          "current": 0.00045191,
+          "logCurrent": -3.345
+        },
+        {
+          "voltage": -0.005,
+          "current": 0.00054969,
+          "logCurrent": -3.26
+        },
+        {
+          "voltage": 0.005,
+          "current": 0.00066862,
+          "logCurrent": -3.175
+        },
+        {
+          "voltage": 0.015,
+          "current": 0.00081327,
+          "logCurrent": -3.09
+        },
+        {
+          "voltage": 0.026,
+          "current": 0.00098922,
+          "logCurrent": -3.005
+        },
+        {
+          "voltage": 0.036,
+          "current": 0.0012032,
+          "logCurrent": -2.92
+        },
+        {
+          "voltage": 0.046,
+          "current": 0.0014635,
+          "logCurrent": -2.835
+        },
+        {
+          "voltage": 0.056,
+          "current": 0.0017801,
+          "logCurrent": -2.75
+        },
+        {
+          "voltage": 0.066,
+          "current": 0.0021652,
+          "logCurrent": -2.665
+        },
+        {
+          "voltage": 0.077,
+          "current": 0.0026336,
+          "logCurrent": -2.579
+        },
+        {
+          "voltage": 0.087,
+          "current": 0.0032033,
+          "logCurrent": -2.494
+        },
+        {
+          "voltage": 0.097,
+          "current": 0.0038962,
+          "logCurrent": -2.409
+        },
+        {
+          "voltage": 0.107,
+          "current": 0.0047391,
+          "logCurrent": -2.324
+        },
+        {
+          "voltage": 0.117,
+          "current": 0.0057643,
+          "logCurrent": -2.239
+        },
+        {
+          "voltage": 0.128,
+          "current": 0.0070112,
+          "logCurrent": -2.154
+        },
+        {
+          "voltage": 0.138,
+          "current": 0.0085279,
+          "logCurrent": -2.069
+        },
+        {
+          "voltage": 0.148,
+          "current": 0.010373,
+          "logCurrent": -1.984
+        },
+        {
+          "voltage": 0.158,
+          "current": 0.012617,
+          "logCurrent": -1.899
+        },
+        {
+          "voltage": 0.168,
+          "current": 0.015346,
+          "logCurrent": -1.814
+        },
+        {
+          "voltage": 0.179,
+          "current": 0.018666,
+          "logCurrent": -1.729
+        },
+        {
+          "voltage": 0.189,
+          "current": 0.022703,
+          "logCurrent": -1.644
+        },
+        {
+          "voltage": 0.199,
+          "current": 0.027615,
+          "logCurrent": -1.559
+        },
+        {
+          "voltage": 0.209,
+          "current": 0.033588,
+          "logCurrent": -1.474
+        },
+        {
+          "voltage": 0.219,
+          "current": 0.040854,
+          "logCurrent": -1.389
+        },
+        {
+          "voltage": 0.23,
+          "current": 0.049692,
+          "logCurrent": -1.304
+        },
+        {
+          "voltage": 0.24,
+          "current": 0.060442,
+          "logCurrent": -1.219
+        },
+        {
+          "voltage": 0.25,
+          "current": 0.073517,
+          "logCurrent": -1.134
+        }
+      ],
+      "timestamp": "2026-10-25T17:00:51.449Z"
+    },
+    {
+      "id": "run_1792948650179_v2il",
+      "runNumber": "#156",
+      "material": "Titanium Grade 5",
+      "initVoltage": -0.3,
+      "finalVoltage": 0.7,
+      "scanRate": 0.166,
+      "pH": 7.4,
+      "temperature": 37,
+      "current": 0.02,
+      "rate": "0.02 mpy",
+      "risk": "Low Corrosion Risk",
+      "confidence": "96.3%",
+      "passivation": "Stable Passive Film",
+      "description": "ASTM F136 Biomedical Implant in Saline",
+      "points": [
+        {
+          "voltage": -0.3,
+          "current": 0.000022464,
+          "logCurrent": -4.649
+        },
+        {
+          "voltage": -0.28,
+          "current": 0.000015184,
+          "logCurrent": -4.819
+        },
+        {
+          "voltage": -0.259,
+          "current": 0.000010263,
+          "logCurrent": -4.989
+        },
+        {
+          "voltage": -0.239,
+          "current": 0.0000069372,
+          "logCurrent": -5.159
+        },
+        {
+          "voltage": -0.218,
+          "current": 0.000004689,
+          "logCurrent": -5.329
+        },
+        {
+          "voltage": -0.198,
+          "current": 0.0000031693,
+          "logCurrent": -5.499
+        },
+        {
+          "voltage": -0.178,
+          "current": 0.000002142,
+          "logCurrent": -5.669
+        },
+        {
+          "voltage": -0.157,
+          "current": 0.0000014476,
+          "logCurrent": -5.839
+        },
+        {
+          "voltage": -0.137,
+          "current": 9.7805e-7,
+          "logCurrent": -6.01
+        },
+        {
+          "voltage": -0.116,
+          "current": 6.6049e-7,
+          "logCurrent": -6.18
+        },
+        {
+          "voltage": -0.096,
+          "current": 4.4555e-7,
+          "logCurrent": -6.351
+        },
+        {
+          "voltage": -0.076,
+          "current": 2.9983e-7,
+          "logCurrent": -6.523
+        },
+        {
+          "voltage": -0.055,
+          "current": 2.007e-7,
+          "logCurrent": -6.697
+        },
+        {
+          "voltage": -0.035,
+          "current": 1.3275e-7,
+          "logCurrent": -6.877
+        },
+        {
+          "voltage": -0.014,
+          "current": 8.5432e-8,
+          "logCurrent": -7.068
+        },
+        {
+          "voltage": 0.006,
+          "current": 5.1386e-8,
+          "logCurrent": -7.289
+        },
+        {
+          "voltage": 0.027,
+          "current": 2.5324e-8,
+          "logCurrent": -7.596
+        },
+        {
+          "voltage": 0.047,
+          "current": 3.1958e-9,
+          "logCurrent": -8.495
+        },
+        {
+          "voltage": 0.067,
+          "current": 1.8435e-8,
+          "logCurrent": -7.734
+        },
+        {
+          "voltage": 0.088,
+          "current": 4.2931e-8,
+          "logCurrent": -7.367
+        },
+        {
+          "voltage": 0.108,
+          "current": 7.4097e-8,
+          "logCurrent": -7.13
+        },
+        {
+          "voltage": 0.129,
+          "current": 1.1678e-7,
+          "logCurrent": -6.933
+        },
+        {
+          "voltage": 0.149,
+          "current": 1.776e-7,
+          "logCurrent": -6.751
+        },
+        {
+          "voltage": 0.169,
+          "current": 2.6602e-7,
+          "logCurrent": -6.575
+        },
+        {
+          "voltage": 0.19,
+          "current": 3.9576e-7,
+          "logCurrent": -6.403
+        },
+        {
+          "voltage": 0.21,
+          "current": 5.87e-7,
+          "logCurrent": -6.231
+        },
+        {
+          "voltage": 0.231,
+          "current": 8.6945e-7,
+          "logCurrent": -6.061
+        },
+        {
+          "voltage": 0.251,
+          "current": 0.000001287,
+          "logCurrent": -5.89
+        },
+        {
+          "voltage": 0.271,
+          "current": 0.0000019045,
+          "logCurrent": -5.72
+        },
+        {
+          "voltage": 0.292,
+          "current": 0.0000028179,
+          "logCurrent": -5.55
+        },
+        {
+          "voltage": 0.312,
+          "current": 0.0000041691,
+          "logCurrent": -5.38
+        },
+        {
+          "voltage": 0.333,
+          "current": 0.0000061681,
+          "logCurrent": -5.21
+        },
+        {
+          "voltage": 0.353,
+          "current": 0.0000091255,
+          "logCurrent": -5.04
+        },
+        {
+          "voltage": 0.373,
+          "current": 0.000013501,
+          "logCurrent": -4.87
+        },
+        {
+          "voltage": 0.394,
+          "current": 0.000019974,
+          "logCurrent": -4.7
+        },
+        {
+          "voltage": 0.414,
+          "current": 0.00002955,
+          "logCurrent": -4.529
+        },
+        {
+          "voltage": 0.435,
+          "current": 0.000043717,
+          "logCurrent": -4.359
+        },
+        {
+          "voltage": 0.455,
+          "current": 0.000064677,
+          "logCurrent": -4.189
+        },
+        {
+          "voltage": 0.476,
+          "current": 0.000095687,
+          "logCurrent": -4.019
+        },
+        {
+          "voltage": 0.496,
+          "current": 0.00014156,
+          "logCurrent": -3.849
+        },
+        {
+          "voltage": 0.516,
+          "current": 0.00020943,
+          "logCurrent": -3.679
+        },
+        {
+          "voltage": 0.537,
+          "current": 0.00030985,
+          "logCurrent": -3.509
+        },
+        {
+          "voltage": 0.557,
+          "current": 0.0004584,
+          "logCurrent": -3.339
+        },
+        {
+          "voltage": 0.578,
+          "current": 0.00067818,
+          "logCurrent": -3.169
+        },
+        {
+          "voltage": 0.598,
+          "current": 0.0010033,
+          "logCurrent": -2.999
+        },
+        {
+          "voltage": 0.618,
+          "current": 0.0014844,
+          "logCurrent": -2.828
+        },
+        {
+          "voltage": 0.639,
+          "current": 0.002196,
+          "logCurrent": -2.658
+        },
+        {
+          "voltage": 0.659,
+          "current": 0.0032489,
+          "logCurrent": -2.488
+        },
+        {
+          "voltage": 0.68,
+          "current": 0.0048066,
+          "logCurrent": -2.318
+        },
+        {
+          "voltage": 0.7,
+          "current": 0.0071111,
+          "logCurrent": -2.148
+        }
+      ],
+      "timestamp": "2026-10-25T17:17:30.179Z"
+    },
+    {
+      "id": "run_1792948650184_zpgd",
+      "runNumber": "#157",
+      "material": "Alloy C276 (Hastelloy)",
+      "initVoltage": -0.4,
+      "finalVoltage": 0.8,
+      "scanRate": 0.166,
+      "pH": 2,
+      "temperature": 65,
+      "current": 0.08,
+      "rate": "6.31 mpy",
+      "risk": "Medium Pitting Risk",
+      "confidence": "94.9%",
+      "passivation": "Partial Passivation",
+      "description": "ASTM G28 Acid Scrubber Solution",
+      "points": [
+        {
+          "voltage": -0.4,
+          "current": 0.001871,
+          "logCurrent": -2.728
+        },
+        {
+          "voltage": -0.376,
+          "current": 0.0011693,
+          "logCurrent": -2.932
+        },
+        {
+          "voltage": -0.351,
+          "current": 0.00073073,
+          "logCurrent": -3.136
+        },
+        {
+          "voltage": -0.327,
+          "current": 0.00045656,
+          "logCurrent": -3.341
+        },
+        {
+          "voltage": -0.302,
+          "current": 0.00028512,
+          "logCurrent": -3.545
+        },
+        {
+          "voltage": -0.278,
+          "current": 0.00017782,
+          "logCurrent": -3.75
+        },
+        {
+          "voltage": -0.253,
+          "current": 0.00011053,
+          "logCurrent": -3.957
+        },
+        {
+          "voltage": -0.229,
+          "current": 0.000068118,
+          "logCurrent": -4.167
+        },
+        {
+          "voltage": -0.204,
+          "current": 0.000041029,
+          "logCurrent": -4.387
+        },
+        {
+          "voltage": -0.18,
+          "current": 0.00002317,
+          "logCurrent": -4.635
+        },
+        {
+          "voltage": -0.155,
+          "current": 0.000010525,
+          "logCurrent": -4.978
+        },
+        {
+          "voltage": -0.131,
+          "current": 2.4703e-7,
+          "logCurrent": -6.607
+        },
+        {
+          "voltage": -0.106,
+          "current": 0.0000099749,
+          "logCurrent": -5.001
+        },
+        {
+          "voltage": -0.082,
+          "current": 0.000022441,
+          "logCurrent": -4.649
+        },
+        {
+          "voltage": -0.057,
+          "current": 0.000039956,
+          "logCurrent": -4.398
+        },
+        {
+          "voltage": -0.033,
+          "current": 0.000066462,
+          "logCurrent": -4.177
+        },
+        {
+          "voltage": -0.008,
+          "current": 0.00010792,
+          "logCurrent": -3.967
+        },
+        {
+          "voltage": 0.016,
+          "current": 0.00017366,
+          "logCurrent": -3.76
+        },
+        {
+          "voltage": 0.041,
+          "current": 0.00027848,
+          "logCurrent": -3.555
+        },
+        {
+          "voltage": 0.065,
+          "current": 0.00044595,
+          "logCurrent": -3.351
+        },
+        {
+          "voltage": 0.09,
+          "current": 0.00071375,
+          "logCurrent": -3.146
+        },
+        {
+          "voltage": 0.114,
+          "current": 0.0011422,
+          "logCurrent": -2.942
+        },
+        {
+          "voltage": 0.139,
+          "current": 0.0018275,
+          "logCurrent": -2.738
+        },
+        {
+          "voltage": 0.163,
+          "current": 0.0029241,
+          "logCurrent": -2.534
+        },
+        {
+          "voltage": 0.188,
+          "current": 0.0046786,
+          "logCurrent": -2.33
+        },
+        {
+          "voltage": 0.212,
+          "current": 0.0074857,
+          "logCurrent": -2.126
+        },
+        {
+          "voltage": 0.237,
+          "current": 0.011977,
+          "logCurrent": -1.922
+        },
+        {
+          "voltage": 0.261,
+          "current": 0.019163,
+          "logCurrent": -1.718
+        },
+        {
+          "voltage": 0.286,
+          "current": 0.030661,
+          "logCurrent": -1.513
+        },
+        {
+          "voltage": 0.31,
+          "current": 0.049058,
+          "logCurrent": -1.309
+        },
+        {
+          "voltage": 0.335,
+          "current": 0.078492,
+          "logCurrent": -1.105
+        },
+        {
+          "voltage": 0.359,
+          "current": 0.12559,
+          "logCurrent": -0.901
+        },
+        {
+          "voltage": 0.384,
+          "current": 0.20094,
+          "logCurrent": -0.697
+        },
+        {
+          "voltage": 0.408,
+          "current": 0.3215,
+          "logCurrent": -0.493
+        },
+        {
+          "voltage": 0.433,
+          "current": 0.5144,
+          "logCurrent": -0.289
+        },
+        {
+          "voltage": 0.457,
+          "current": 0.82304,
+          "logCurrent": -0.085
+        },
+        {
+          "voltage": 0.482,
+          "current": 1.3169,
+          "logCurrent": 0.12
+        },
+        {
+          "voltage": 0.506,
+          "current": 2.107,
+          "logCurrent": 0.324
+        },
+        {
+          "voltage": 0.531,
+          "current": 3.3711,
+          "logCurrent": 0.528
+        },
+        {
+          "voltage": 0.555,
+          "current": 5.3938,
+          "logCurrent": 0.732
+        },
+        {
+          "voltage": 0.58,
+          "current": 8.63,
+          "logCurrent": 0.936
+        },
+        {
+          "voltage": 0.604,
+          "current": 13.808,
+          "logCurrent": 1.14
+        },
+        {
+          "voltage": 0.629,
+          "current": 22.093,
+          "logCurrent": 1.344
+        },
+        {
+          "voltage": 0.653,
+          "current": 35.348,
+          "logCurrent": 1.548
+        },
+        {
+          "voltage": 0.678,
+          "current": 56.557,
+          "logCurrent": 1.752
+        },
+        {
+          "voltage": 0.702,
+          "current": 90.49,
+          "logCurrent": 1.957
+        },
+        {
+          "voltage": 0.727,
+          "current": 144.78,
+          "logCurrent": 2.161
+        },
+        {
+          "voltage": 0.751,
+          "current": 231.65,
+          "logCurrent": 2.365
+        },
+        {
+          "voltage": 0.776,
+          "current": 370.64,
+          "logCurrent": 2.569
+        },
+        {
+          "voltage": 0.8,
+          "current": 593.03,
+          "logCurrent": 2.773
+        }
+      ],
+      "timestamp": "2026-10-25T17:17:30.184Z"
+    },
+    {
+      "id": "run_1792948650187_qogr",
+      "runNumber": "#158",
+      "material": "Copper-Nickel 90/10",
+      "initVoltage": -0.35,
+      "finalVoltage": 0.35,
+      "scanRate": 0.166,
+      "pH": 8.1,
+      "temperature": 22,
+      "current": 2.15,
+      "rate": "2.34 mpy",
+      "risk": "Medium Pitting Risk",
+      "confidence": "94.7%",
+      "passivation": "Partial Passivation",
+      "description": "ASTM G31 Aerated Seawater Heat Exchanger",
+      "points": [
+        {
+          "voltage": -0.35,
+          "current": 0.000025967,
+          "logCurrent": -4.586
+        },
+        {
+          "voltage": -0.336,
+          "current": 0.000019423,
+          "logCurrent": -4.712
+        },
+        {
+          "voltage": -0.321,
+          "current": 0.000014348,
+          "logCurrent": -4.843
+        },
+        {
+          "voltage": -0.307,
+          "current": 0.000010359,
+          "logCurrent": -4.985
+        },
+        {
+          "voltage": -0.293,
+          "current": 0.0000071527,
+          "logCurrent": -5.146
+        },
+        {
+          "voltage": -0.279,
+          "current": 0.0000044877,
+          "logCurrent": -5.348
+        },
+        {
+          "voltage": -0.264,
+          "current": 0.0000021621,
+          "logCurrent": -5.665
+        },
+        {
+          "voltage": -0.25,
+          "current": 0,
+          "logCurrent": -10
+        },
+        {
+          "voltage": -0.236,
+          "current": 0.0000021621,
+          "logCurrent": -5.665
+        },
+        {
+          "voltage": -0.221,
+          "current": 0.0000044877,
+          "logCurrent": -5.348
+        },
+        {
+          "voltage": -0.207,
+          "current": 0.0000071527,
+          "logCurrent": -5.146
+        },
+        {
+          "voltage": -0.193,
+          "current": 0.000010359,
+          "logCurrent": -4.985
+        },
+        {
+          "voltage": -0.179,
+          "current": 0.000014348,
+          "logCurrent": -4.843
+        },
+        {
+          "voltage": -0.164,
+          "current": 0.000019423,
+          "logCurrent": -4.712
+        },
+        {
+          "voltage": -0.15,
+          "current": 0.000025967,
+          "logCurrent": -4.586
+        },
+        {
+          "voltage": -0.136,
+          "current": 0.000034476,
+          "logCurrent": -4.462
+        },
+        {
+          "voltage": -0.121,
+          "current": 0.000045592,
+          "logCurrent": -4.341
+        },
+        {
+          "voltage": -0.107,
+          "current": 0.000060156,
+          "logCurrent": -4.221
+        },
+        {
+          "voltage": -0.093,
+          "current": 0.000079271,
+          "logCurrent": -4.101
+        },
+        {
+          "voltage": -0.079,
+          "current": 0.00010438,
+          "logCurrent": -3.981
+        },
+        {
+          "voltage": -0.064,
+          "current": 0.00013739,
+          "logCurrent": -3.862
+        },
+        {
+          "voltage": -0.05,
+          "current": 0.00018078,
+          "logCurrent": -3.743
+        },
+        {
+          "voltage": -0.036,
+          "current": 0.00023786,
+          "logCurrent": -3.624
+        },
+        {
+          "voltage": -0.021,
+          "current": 0.00031292,
+          "logCurrent": -3.505
+        },
+        {
+          "voltage": -0.007,
+          "current": 0.00041165,
+          "logCurrent": -3.385
+        },
+        {
+          "voltage": 0.007,
+          "current": 0.00054152,
+          "logCurrent": -3.266
+        },
+        {
+          "voltage": 0.021,
+          "current": 0.00071235,
+          "logCurrent": -3.147
+        },
+        {
+          "voltage": 0.036,
+          "current": 0.00093707,
+          "logCurrent": -3.028
+        },
+        {
+          "voltage": 0.05,
+          "current": 0.0012327,
+          "logCurrent": -2.909
+        },
+        {
+          "voltage": 0.064,
+          "current": 0.0016215,
+          "logCurrent": -2.79
+        },
+        {
+          "voltage": 0.079,
+          "current": 0.002133,
+          "logCurrent": -2.671
+        },
+        {
+          "voltage": 0.093,
+          "current": 0.0028058,
+          "logCurrent": -2.552
+        },
+        {
+          "voltage": 0.107,
+          "current": 0.0036908,
+          "logCurrent": -2.433
+        },
+        {
+          "voltage": 0.121,
+          "current": 0.004855,
+          "logCurrent": -2.314
+        },
+        {
+          "voltage": 0.136,
+          "current": 0.0063865,
+          "logCurrent": -2.195
+        },
+        {
+          "voltage": 0.15,
+          "current": 0.008401,
+          "logCurrent": -2.076
+        },
+        {
+          "voltage": 0.164,
+          "current": 0.011051,
+          "logCurrent": -1.957
+        },
+        {
+          "voltage": 0.179,
+          "current": 0.014537,
+          "logCurrent": -1.838
+        },
+        {
+          "voltage": 0.193,
+          "current": 0.019122,
+          "logCurrent": -1.718
+        },
+        {
+          "voltage": 0.207,
+          "current": 0.025154,
+          "logCurrent": -1.599
+        },
+        {
+          "voltage": 0.221,
+          "current": 0.033088,
+          "logCurrent": -1.48
+        },
+        {
+          "voltage": 0.236,
+          "current": 0.043526,
+          "logCurrent": -1.361
+        },
+        {
+          "voltage": 0.25,
+          "current": 0.057255,
+          "logCurrent": -1.242
+        },
+        {
+          "voltage": 0.264,
+          "current": 0.075315,
+          "logCurrent": -1.123
+        },
+        {
+          "voltage": 0.279,
+          "current": 0.099072,
+          "logCurrent": -1.004
+        },
+        {
+          "voltage": 0.293,
+          "current": 0.13032,
+          "logCurrent": -0.885
+        },
+        {
+          "voltage": 0.307,
+          "current": 0.17143,
+          "logCurrent": -0.766
+        },
+        {
+          "voltage": 0.321,
+          "current": 0.22551,
+          "logCurrent": -0.647
+        },
+        {
+          "voltage": 0.336,
+          "current": 0.29664,
+          "logCurrent": -0.528
+        },
+        {
+          "voltage": 0.35,
+          "current": 0.39021,
+          "logCurrent": -0.409
+        }
+      ],
+      "timestamp": "2026-10-25T17:17:30.187Z"
+    },
+    {
+      "id": "run_1792948650189_7nku",
+      "runNumber": "#159",
+      "material": "Aluminum 6061-T6",
+      "initVoltage": -0.85,
+      "finalVoltage": -0.15,
+      "scanRate": 0.166,
+      "pH": 5.5,
+      "temperature": 35,
+      "current": 4.8,
+      "rate": "16.57 mpy",
+      "risk": "Critical Pitting Hazard",
+      "confidence": "96.3%",
+      "passivation": "Active Dissolution",
+      "description": "ASTM B117 Aerospace Salt Spray",
+      "points": [
+        {
+          "voltage": -0.85,
+          "current": 0.00018413,
+          "logCurrent": -3.735
+        },
+        {
+          "voltage": -0.836,
+          "current": 0.00013773,
+          "logCurrent": -3.861
+        },
+        {
+          "voltage": -0.821,
+          "current": 0.00010174,
+          "logCurrent": -3.993
+        },
+        {
+          "voltage": -0.807,
+          "current": 0.000073452,
+          "logCurrent": -4.134
+        },
+        {
+          "voltage": -0.793,
+          "current": 0.000050719,
+          "logCurrent": -4.295
+        },
+        {
+          "voltage": -0.779,
+          "current": 0.000031821,
+          "logCurrent": -4.497
+        },
+        {
+          "voltage": -0.764,
+          "current": 0.000015331,
+          "logCurrent": -4.814
+        },
+        {
+          "voltage": -0.75,
+          "current": 0,
+          "logCurrent": -10
+        },
+        {
+          "voltage": -0.736,
+          "current": 0.000015331,
+          "logCurrent": -4.814
+        },
+        {
+          "voltage": -0.721,
+          "current": 0.000031821,
+          "logCurrent": -4.497
+        },
+        {
+          "voltage": -0.707,
+          "current": 0.000050719,
+          "logCurrent": -4.295
+        },
+        {
+          "voltage": -0.693,
+          "current": 0.000073452,
+          "logCurrent": -4.134
+        },
+        {
+          "voltage": -0.679,
+          "current": 0.00010174,
+          "logCurrent": -3.993
+        },
+        {
+          "voltage": -0.664,
+          "current": 0.00013773,
+          "logCurrent": -3.861
+        },
+        {
+          "voltage": -0.65,
+          "current": 0.00018413,
+          "logCurrent": -3.735
+        },
+        {
+          "voltage": -0.636,
+          "current": 0.00024446,
+          "logCurrent": -3.612
+        },
+        {
+          "voltage": -0.621,
+          "current": 0.00032328,
+          "logCurrent": -3.49
+        },
+        {
+          "voltage": -0.607,
+          "current": 0.00042656,
+          "logCurrent": -3.37
+        },
+        {
+          "voltage": -0.593,
+          "current": 0.00056209,
+          "logCurrent": -3.25
+        },
+        {
+          "voltage": -0.579,
+          "current": 0.00074015,
+          "logCurrent": -3.131
+        },
+        {
+          "voltage": -0.564,
+          "current": 0.00097419,
+          "logCurrent": -3.011
+        },
+        {
+          "voltage": -0.55,
+          "current": 0.0012819,
+          "logCurrent": -2.892
+        },
+        {
+          "voltage": -0.536,
+          "current": 0.0016866,
+          "logCurrent": -2.773
+        },
+        {
+          "voltage": -0.521,
+          "current": 0.0022189,
+          "logCurrent": -2.654
+        },
+        {
+          "voltage": -0.507,
+          "current": 0.002919,
+          "logCurrent": -2.535
+        },
+        {
+          "voltage": -0.493,
+          "current": 0.0038398,
+          "logCurrent": -2.416
+        },
+        {
+          "voltage": -0.479,
+          "current": 0.0050512,
+          "logCurrent": -2.297
+        },
+        {
+          "voltage": -0.464,
+          "current": 0.0066446,
+          "logCurrent": -2.178
+        },
+        {
+          "voltage": -0.45,
+          "current": 0.0087406,
+          "logCurrent": -2.058
+        },
+        {
+          "voltage": -0.436,
+          "current": 0.011498,
+          "logCurrent": -1.939
+        },
+        {
+          "voltage": -0.421,
+          "current": 0.015124,
+          "logCurrent": -1.82
+        },
+        {
+          "voltage": -0.407,
+          "current": 0.019895,
+          "logCurrent": -1.701
+        },
+        {
+          "voltage": -0.393,
+          "current": 0.026171,
+          "logCurrent": -1.582
+        },
+        {
+          "voltage": -0.379,
+          "current": 0.034426,
+          "logCurrent": -1.463
+        },
+        {
+          "voltage": -0.364,
+          "current": 0.045285,
+          "logCurrent": -1.344
+        },
+        {
+          "voltage": -0.35,
+          "current": 0.05957,
+          "logCurrent": -1.225
+        },
+        {
+          "voltage": -0.336,
+          "current": 0.07836,
+          "logCurrent": -1.106
+        },
+        {
+          "voltage": -0.321,
+          "current": 0.10308,
+          "logCurrent": -0.987
+        },
+        {
+          "voltage": -0.307,
+          "current": 0.13559,
+          "logCurrent": -0.868
+        },
+        {
+          "voltage": -0.293,
+          "current": 0.17836,
+          "logCurrent": -0.749
+        },
+        {
+          "voltage": -0.279,
+          "current": 0.23462,
+          "logCurrent": -0.63
+        },
+        {
+          "voltage": -0.264,
+          "current": 0.30863,
+          "logCurrent": -0.511
+        },
+        {
+          "voltage": -0.25,
+          "current": 0.40599,
+          "logCurrent": -0.391
+        },
+        {
+          "voltage": -0.236,
+          "current": 0.53405,
+          "logCurrent": -0.272
+        },
+        {
+          "voltage": -0.221,
+          "current": 0.7025,
+          "logCurrent": -0.153
+        },
+        {
+          "voltage": -0.207,
+          "current": 0.9241,
+          "logCurrent": -0.034
+        },
+        {
+          "voltage": -0.193,
+          "current": 1.2156,
+          "logCurrent": 0.085
+        },
+        {
+          "voltage": -0.179,
+          "current": 1.599,
+          "logCurrent": 0.204
+        },
+        {
+          "voltage": -0.164,
+          "current": 2.1034,
+          "logCurrent": 0.323
+        },
+        {
+          "voltage": -0.15,
+          "current": 2.7669,
+          "logCurrent": 0.442
+        }
+      ],
+      "timestamp": "2026-10-25T17:17:30.189Z"
+    },
+    {
+      "id": "run_1792948650191_nblm",
+      "runNumber": "#160",
+      "material": "Carbon Steel 1018",
+      "initVoltage": -0.75,
+      "finalVoltage": 0.15,
+      "scanRate": 0.166,
+      "pH": 3.5,
+      "temperature": 45,
+      "current": 14.5,
+      "rate": "381.2 mpy",
+      "risk": "Critical Pitting Hazard",
+      "confidence": "96.0%",
+      "passivation": "Active Dissolution",
+      "description": "NACE TM0177 Sour Gas Pipeline H2S/CO2",
+      "points": [
+        {
+          "voltage": -0.75,
+          "current": 0.00049979,
+          "logCurrent": -3.301
+        },
+        {
+          "voltage": -0.732,
+          "current": 0.000039821,
+          "logCurrent": -4.4
+        },
+        {
+          "voltage": -0.713,
+          "current": 0.00041515,
+          "logCurrent": -3.382
+        },
+        {
+          "voltage": -0.695,
+          "current": 0.00092225,
+          "logCurrent": -3.035
+        },
+        {
+          "voltage": -0.677,
+          "current": 0.0015451,
+          "logCurrent": -2.811
+        },
+        {
+          "voltage": -0.658,
+          "current": 0.002362,
+          "logCurrent": -2.627
+        },
+        {
+          "voltage": -0.64,
+          "current": 0.0034754,
+          "logCurrent": -2.459
+        },
+        {
+          "voltage": -0.621,
+          "current": 0.0050251,
+          "logCurrent": -2.299
+        },
+        {
+          "voltage": -0.603,
+          "current": 0.0072058,
+          "logCurrent": -2.142
+        },
+        {
+          "voltage": -0.585,
+          "current": 0.010291,
+          "logCurrent": -1.988
+        },
+        {
+          "voltage": -0.566,
+          "current": 0.014668,
+          "logCurrent": -1.834
+        },
+        {
+          "voltage": -0.548,
+          "current": 0.020887,
+          "logCurrent": -1.68
+        },
+        {
+          "voltage": -0.53,
+          "current": 0.029729,
+          "logCurrent": -1.527
+        },
+        {
+          "voltage": -0.511,
+          "current": 0.042302,
+          "logCurrent": -1.374
+        },
+        {
+          "voltage": -0.493,
+          "current": 0.060187,
+          "logCurrent": -1.22
+        },
+        {
+          "voltage": -0.474,
+          "current": 0.085628,
+          "logCurrent": -1.067
+        },
+        {
+          "voltage": -0.456,
+          "current": 0.12182,
+          "logCurrent": -0.914
+        },
+        {
+          "voltage": -0.438,
+          "current": 0.17331,
+          "logCurrent": -0.761
+        },
+        {
+          "voltage": -0.419,
+          "current": 0.24655,
+          "logCurrent": -0.608
+        },
+        {
+          "voltage": -0.401,
+          "current": 0.35075,
+          "logCurrent": -0.455
+        },
+        {
+          "voltage": -0.383,
+          "current": 0.49898,
+          "logCurrent": -0.302
+        },
+        {
+          "voltage": -0.364,
+          "current": 0.70986,
+          "logCurrent": -0.149
+        },
+        {
+          "voltage": -0.346,
+          "current": 1.0099,
+          "logCurrent": 0.004
+        },
+        {
+          "voltage": -0.328,
+          "current": 1.4367,
+          "logCurrent": 0.157
+        },
+        {
+          "voltage": -0.309,
+          "current": 2.0438,
+          "logCurrent": 0.31
+        },
+        {
+          "voltage": -0.291,
+          "current": 2.9076,
+          "logCurrent": 0.464
+        },
+        {
+          "voltage": -0.272,
+          "current": 4.1364,
+          "logCurrent": 0.617
+        },
+        {
+          "voltage": -0.254,
+          "current": 5.8845,
+          "logCurrent": 0.77
+        },
+        {
+          "voltage": -0.236,
+          "current": 8.3713,
+          "logCurrent": 0.923
+        },
+        {
+          "voltage": -0.217,
+          "current": 11.909,
+          "logCurrent": 1.076
+        },
+        {
+          "voltage": -0.199,
+          "current": 16.942,
+          "logCurrent": 1.229
+        },
+        {
+          "voltage": -0.181,
+          "current": 24.102,
+          "logCurrent": 1.382
+        },
+        {
+          "voltage": -0.162,
+          "current": 34.289,
+          "logCurrent": 1.535
+        },
+        {
+          "voltage": -0.144,
+          "current": 48.78,
+          "logCurrent": 1.688
+        },
+        {
+          "voltage": -0.126,
+          "current": 69.395,
+          "logCurrent": 1.841
+        },
+        {
+          "voltage": -0.107,
+          "current": 98.723,
+          "logCurrent": 1.994
+        },
+        {
+          "voltage": -0.089,
+          "current": 140.44,
+          "logCurrent": 2.148
+        },
+        {
+          "voltage": -0.07,
+          "current": 199.8,
+          "logCurrent": 2.301
+        },
+        {
+          "voltage": -0.052,
+          "current": 284.24,
+          "logCurrent": 2.454
+        },
+        {
+          "voltage": -0.034,
+          "current": 404.36,
+          "logCurrent": 2.607
+        },
+        {
+          "voltage": -0.015,
+          "current": 575.26,
+          "logCurrent": 2.76
+        },
+        {
+          "voltage": 0.003,
+          "current": 818.37,
+          "logCurrent": 2.913
+        },
+        {
+          "voltage": 0.021,
+          "current": 1164.2,
+          "logCurrent": 3.066
+        },
+        {
+          "voltage": 0.04,
+          "current": 1656.3,
+          "logCurrent": 3.219
+        },
+        {
+          "voltage": 0.058,
+          "current": 2356.2,
+          "logCurrent": 3.372
+        },
+        {
+          "voltage": 0.077,
+          "current": 3352,
+          "logCurrent": 3.525
+        },
+        {
+          "voltage": 0.095,
+          "current": 4768.6,
+          "logCurrent": 3.678
+        },
+        {
+          "voltage": 0.113,
+          "current": 6783.9,
+          "logCurrent": 3.831
+        },
+        {
+          "voltage": 0.132,
+          "current": 9651,
+          "logCurrent": 3.985
+        },
+        {
+          "voltage": 0.15,
+          "current": 13730,
+          "logCurrent": 4.138
+        }
+      ],
+      "timestamp": "2026-10-25T17:17:30.191Z"
+    },
+    {
+      "id": "run_1793208993754",
+      "runNumber": "#156",
+      "material": "Carbon Steel 1018",
+      "initVoltage": -0.25,
+      "finalVoltage": 0.25,
+      "scanRate": 0.166,
+      "pH": 7.15,
+      "temperature": 25,
+      "current": 1,
+      "rate": "0.305 mm/year (12 mpy)",
+      "risk": "High Pitting Risk",
+      "confidence": "94.1%",
+      "passivation": "Partial Passivation Breakdown",
+      "points": [
+        {
+          "voltage": -0.25,
+          "current": 0.043148,
+          "logCurrent": -1.365
+        },
+        {
+          "voltage": -0.24,
+          "current": 0.052482,
+          "logCurrent": -1.28
+        },
+        {
+          "voltage": -0.23,
+          "current": 0.063836,
+          "logCurrent": -1.195
+        },
+        {
+          "voltage": -0.219,
+          "current": 0.077645,
+          "logCurrent": -1.11
+        },
+        {
+          "voltage": -0.209,
+          "current": 0.094441,
+          "logCurrent": -1.025
+        },
+        {
+          "voltage": -0.199,
+          "current": 0.11487,
+          "logCurrent": -0.94
+        },
+        {
+          "voltage": -0.189,
+          "current": 0.13972,
+          "logCurrent": -0.855
+        },
+        {
+          "voltage": -0.179,
+          "current": 0.16995,
+          "logCurrent": -0.77
+        },
+        {
+          "voltage": -0.168,
+          "current": 0.20671,
+          "logCurrent": -0.685
+        },
+        {
+          "voltage": -0.158,
+          "current": 0.25142,
+          "logCurrent": -0.6
+        },
+        {
+          "voltage": -0.148,
+          "current": 0.30581,
+          "logCurrent": -0.515
+        },
+        {
+          "voltage": -0.138,
+          "current": 0.37197,
+          "logCurrent": -0.429
+        },
+        {
+          "voltage": -0.128,
+          "current": 0.45243,
+          "logCurrent": -0.344
+        },
+        {
+          "voltage": -0.117,
+          "current": 0.55031,
+          "logCurrent": -0.259
+        },
+        {
+          "voltage": -0.107,
+          "current": 0.66935,
+          "logCurrent": -0.174
+        },
+        {
+          "voltage": -0.097,
+          "current": 0.81415,
+          "logCurrent": -0.089
+        },
+        {
+          "voltage": -0.087,
+          "current": 0.99027,
+          "logCurrent": -0.004
+        },
+        {
+          "voltage": -0.077,
+          "current": 1.2045,
+          "logCurrent": 0.081
+        },
+        {
+          "voltage": -0.066,
+          "current": 1.465,
+          "logCurrent": 0.166
+        },
+        {
+          "voltage": -0.056,
+          "current": 1.782,
+          "logCurrent": 0.251
+        },
+        {
+          "voltage": -0.046,
+          "current": 2.1675,
+          "logCurrent": 0.336
+        },
+        {
+          "voltage": -0.036,
+          "current": 2.6363,
+          "logCurrent": 0.421
+        },
+        {
+          "voltage": -0.026,
+          "current": 3.2066,
+          "logCurrent": 0.506
+        },
+        {
+          "voltage": -0.015,
+          "current": 3.9003,
+          "logCurrent": 0.591
+        },
+        {
+          "voltage": -0.005,
+          "current": 4.744,
+          "logCurrent": 0.676
+        },
+        {
+          "voltage": 0.005,
+          "current": 5.7703,
+          "logCurrent": 0.761
+        },
+        {
+          "voltage": 0.015,
+          "current": 7.0185,
+          "logCurrent": 0.846
+        },
+        {
+          "voltage": 0.026,
+          "current": 8.5368,
+          "logCurrent": 0.931
+        },
+        {
+          "voltage": 0.036,
+          "current": 10.384,
+          "logCurrent": 1.016
+        },
+        {
+          "voltage": 0.046,
+          "current": 12.63,
+          "logCurrent": 1.101
+        },
+        {
+          "voltage": 0.056,
+          "current": 15.362,
+          "logCurrent": 1.186
+        },
+        {
+          "voltage": 0.066,
+          "current": 18.685,
+          "logCurrent": 1.271
+        },
+        {
+          "voltage": 0.077,
+          "current": 22.727,
+          "logCurrent": 1.357
+        },
+        {
+          "voltage": 0.087,
+          "current": 27.643,
+          "logCurrent": 1.442
+        },
+        {
+          "voltage": 0.097,
+          "current": 33.623,
+          "logCurrent": 1.527
+        },
+        {
+          "voltage": 0.107,
+          "current": 40.897,
+          "logCurrent": 1.612
+        },
+        {
+          "voltage": 0.117,
+          "current": 49.744,
+          "logCurrent": 1.697
+        },
+        {
+          "voltage": 0.128,
+          "current": 60.505,
+          "logCurrent": 1.782
+        },
+        {
+          "voltage": 0.138,
+          "current": 73.593,
+          "logCurrent": 1.867
+        },
+        {
+          "voltage": 0.148,
+          "current": 89.513,
+          "logCurrent": 1.952
+        },
+        {
+          "voltage": 0.158,
+          "current": 108.88,
+          "logCurrent": 2.037
+        },
+        {
+          "voltage": 0.168,
+          "current": 132.43,
+          "logCurrent": 2.122
+        },
+        {
+          "voltage": 0.179,
+          "current": 161.08,
+          "logCurrent": 2.207
+        },
+        {
+          "voltage": 0.189,
+          "current": 195.92,
+          "logCurrent": 2.292
+        },
+        {
+          "voltage": 0.199,
+          "current": 238.31,
+          "logCurrent": 2.377
+        },
+        {
+          "voltage": 0.209,
+          "current": 289.86,
+          "logCurrent": 2.462
+        },
+        {
+          "voltage": 0.219,
+          "current": 352.56,
+          "logCurrent": 2.547
+        },
+        {
+          "voltage": 0.23,
+          "current": 428.83,
+          "logCurrent": 2.632
+        },
+        {
+          "voltage": 0.24,
+          "current": 521.59,
+          "logCurrent": 2.717
+        },
+        {
+          "voltage": 0.25,
+          "current": 634.43,
+          "logCurrent": 2.802
+        }
+      ],
+      "timestamp": "2026-10-28T17:36:33.755Z"
+    },
+    {
+      "id": "run_1793209285863",
+      "runNumber": "#157",
+      "material": "Carbon Steel 1018",
+      "initVoltage": -0.25,
+      "finalVoltage": 0.25,
+      "scanRate": 0.166,
+      "pH": 7.15,
+      "temperature": 25,
+      "current": 1,
+      "rate": "0.305 mm/year (12 mpy)",
+      "risk": "High Pitting Risk",
+      "confidence": "93.6%",
+      "passivation": "Partial Passivation Breakdown",
+      "points": [
+        {
+          "voltage": -0.25,
+          "current": 0.043148,
+          "logCurrent": -1.365
+        },
+        {
+          "voltage": -0.24,
+          "current": 0.052482,
+          "logCurrent": -1.28
+        },
+        {
+          "voltage": -0.23,
+          "current": 0.063836,
+          "logCurrent": -1.195
+        },
+        {
+          "voltage": -0.219,
+          "current": 0.077645,
+          "logCurrent": -1.11
+        },
+        {
+          "voltage": -0.209,
+          "current": 0.094441,
+          "logCurrent": -1.025
+        },
+        {
+          "voltage": -0.199,
+          "current": 0.11487,
+          "logCurrent": -0.94
+        },
+        {
+          "voltage": -0.189,
+          "current": 0.13972,
+          "logCurrent": -0.855
+        },
+        {
+          "voltage": -0.179,
+          "current": 0.16995,
+          "logCurrent": -0.77
+        },
+        {
+          "voltage": -0.168,
+          "current": 0.20671,
+          "logCurrent": -0.685
+        },
+        {
+          "voltage": -0.158,
+          "current": 0.25142,
+          "logCurrent": -0.6
+        },
+        {
+          "voltage": -0.148,
+          "current": 0.30581,
+          "logCurrent": -0.515
+        },
+        {
+          "voltage": -0.138,
+          "current": 0.37197,
+          "logCurrent": -0.429
+        },
+        {
+          "voltage": -0.128,
+          "current": 0.45243,
+          "logCurrent": -0.344
+        },
+        {
+          "voltage": -0.117,
+          "current": 0.55031,
+          "logCurrent": -0.259
+        },
+        {
+          "voltage": -0.107,
+          "current": 0.66935,
+          "logCurrent": -0.174
+        },
+        {
+          "voltage": -0.097,
+          "current": 0.81415,
+          "logCurrent": -0.089
+        },
+        {
+          "voltage": -0.087,
+          "current": 0.99027,
+          "logCurrent": -0.004
+        },
+        {
+          "voltage": -0.077,
+          "current": 1.2045,
+          "logCurrent": 0.081
+        },
+        {
+          "voltage": -0.066,
+          "current": 1.465,
+          "logCurrent": 0.166
+        },
+        {
+          "voltage": -0.056,
+          "current": 1.782,
+          "logCurrent": 0.251
+        },
+        {
+          "voltage": -0.046,
+          "current": 2.1675,
+          "logCurrent": 0.336
+        },
+        {
+          "voltage": -0.036,
+          "current": 2.6363,
+          "logCurrent": 0.421
+        },
+        {
+          "voltage": -0.026,
+          "current": 3.2066,
+          "logCurrent": 0.506
+        },
+        {
+          "voltage": -0.015,
+          "current": 3.9003,
+          "logCurrent": 0.591
+        },
+        {
+          "voltage": -0.005,
+          "current": 4.744,
+          "logCurrent": 0.676
+        },
+        {
+          "voltage": 0.005,
+          "current": 5.7703,
+          "logCurrent": 0.761
+        },
+        {
+          "voltage": 0.015,
+          "current": 7.0185,
+          "logCurrent": 0.846
+        },
+        {
+          "voltage": 0.026,
+          "current": 8.5368,
+          "logCurrent": 0.931
+        },
+        {
+          "voltage": 0.036,
+          "current": 10.384,
+          "logCurrent": 1.016
+        },
+        {
+          "voltage": 0.046,
+          "current": 12.63,
+          "logCurrent": 1.101
+        },
+        {
+          "voltage": 0.056,
+          "current": 15.362,
+          "logCurrent": 1.186
+        },
+        {
+          "voltage": 0.066,
+          "current": 18.685,
+          "logCurrent": 1.271
+        },
+        {
+          "voltage": 0.077,
+          "current": 22.727,
+          "logCurrent": 1.357
+        },
+        {
+          "voltage": 0.087,
+          "current": 27.643,
+          "logCurrent": 1.442
+        },
+        {
+          "voltage": 0.097,
+          "current": 33.623,
+          "logCurrent": 1.527
+        },
+        {
+          "voltage": 0.107,
+          "current": 40.897,
+          "logCurrent": 1.612
+        },
+        {
+          "voltage": 0.117,
+          "current": 49.744,
+          "logCurrent": 1.697
+        },
+        {
+          "voltage": 0.128,
+          "current": 60.505,
+          "logCurrent": 1.782
+        },
+        {
+          "voltage": 0.138,
+          "current": 73.593,
+          "logCurrent": 1.867
+        },
+        {
+          "voltage": 0.148,
+          "current": 89.513,
+          "logCurrent": 1.952
+        },
+        {
+          "voltage": 0.158,
+          "current": 108.88,
+          "logCurrent": 2.037
+        },
+        {
+          "voltage": 0.168,
+          "current": 132.43,
+          "logCurrent": 2.122
+        },
+        {
+          "voltage": 0.179,
+          "current": 161.08,
+          "logCurrent": 2.207
+        },
+        {
+          "voltage": 0.189,
+          "current": 195.92,
+          "logCurrent": 2.292
+        },
+        {
+          "voltage": 0.199,
+          "current": 238.31,
+          "logCurrent": 2.377
+        },
+        {
+          "voltage": 0.209,
+          "current": 289.86,
+          "logCurrent": 2.462
+        },
+        {
+          "voltage": 0.219,
+          "current": 352.56,
+          "logCurrent": 2.547
+        },
+        {
+          "voltage": 0.23,
+          "current": 428.83,
+          "logCurrent": 2.632
+        },
+        {
+          "voltage": 0.24,
+          "current": 521.59,
+          "logCurrent": 2.717
+        },
+        {
+          "voltage": 0.25,
+          "current": 634.43,
+          "logCurrent": 2.802
+        }
+      ],
+      "timestamp": "2026-10-28T17:41:25.864Z"
+    },
+    {
+      "id": "run_1793210458721",
+      "runNumber": "#158",
+      "material": "Carbon Steel 1018",
+      "initVoltage": -0.25,
+      "finalVoltage": 0.25,
+      "scanRate": 0.166,
+      "pH": 7.15,
+      "temperature": 25,
+      "current": 1,
+      "rate": "0.305 mm/year (12 mpy)",
+      "risk": "High Pitting Risk",
+      "confidence": "92.7%",
+      "passivation": "Partial Passivation Breakdown",
+      "points": [
+        {
+          "voltage": -0.25,
+          "current": 0.043148,
+          "logCurrent": -1.365
+        },
+        {
+          "voltage": -0.24,
+          "current": 0.052482,
+          "logCurrent": -1.28
+        },
+        {
+          "voltage": -0.23,
+          "current": 0.063836,
+          "logCurrent": -1.195
+        },
+        {
+          "voltage": -0.219,
+          "current": 0.077645,
+          "logCurrent": -1.11
+        },
+        {
+          "voltage": -0.209,
+          "current": 0.094441,
+          "logCurrent": -1.025
+        },
+        {
+          "voltage": -0.199,
+          "current": 0.11487,
+          "logCurrent": -0.94
+        },
+        {
+          "voltage": -0.189,
+          "current": 0.13972,
+          "logCurrent": -0.855
+        },
+        {
+          "voltage": -0.179,
+          "current": 0.16995,
+          "logCurrent": -0.77
+        },
+        {
+          "voltage": -0.168,
+          "current": 0.20671,
+          "logCurrent": -0.685
+        },
+        {
+          "voltage": -0.158,
+          "current": 0.25142,
+          "logCurrent": -0.6
+        },
+        {
+          "voltage": -0.148,
+          "current": 0.30581,
+          "logCurrent": -0.515
+        },
+        {
+          "voltage": -0.138,
+          "current": 0.37197,
+          "logCurrent": -0.429
+        },
+        {
+          "voltage": -0.128,
+          "current": 0.45243,
+          "logCurrent": -0.344
+        },
+        {
+          "voltage": -0.117,
+          "current": 0.55031,
+          "logCurrent": -0.259
+        },
+        {
+          "voltage": -0.107,
+          "current": 0.66935,
+          "logCurrent": -0.174
+        },
+        {
+          "voltage": -0.097,
+          "current": 0.81415,
+          "logCurrent": -0.089
+        },
+        {
+          "voltage": -0.087,
+          "current": 0.99027,
+          "logCurrent": -0.004
+        },
+        {
+          "voltage": -0.077,
+          "current": 1.2045,
+          "logCurrent": 0.081
+        },
+        {
+          "voltage": -0.066,
+          "current": 1.465,
+          "logCurrent": 0.166
+        },
+        {
+          "voltage": -0.056,
+          "current": 1.782,
+          "logCurrent": 0.251
+        },
+        {
+          "voltage": -0.046,
+          "current": 2.1675,
+          "logCurrent": 0.336
+        },
+        {
+          "voltage": -0.036,
+          "current": 2.6363,
+          "logCurrent": 0.421
+        },
+        {
+          "voltage": -0.026,
+          "current": 3.2066,
+          "logCurrent": 0.506
+        },
+        {
+          "voltage": -0.015,
+          "current": 3.9003,
+          "logCurrent": 0.591
+        },
+        {
+          "voltage": -0.005,
+          "current": 4.744,
+          "logCurrent": 0.676
+        },
+        {
+          "voltage": 0.005,
+          "current": 5.7703,
+          "logCurrent": 0.761
+        },
+        {
+          "voltage": 0.015,
+          "current": 7.0185,
+          "logCurrent": 0.846
+        },
+        {
+          "voltage": 0.026,
+          "current": 8.5368,
+          "logCurrent": 0.931
+        },
+        {
+          "voltage": 0.036,
+          "current": 10.384,
+          "logCurrent": 1.016
+        },
+        {
+          "voltage": 0.046,
+          "current": 12.63,
+          "logCurrent": 1.101
+        },
+        {
+          "voltage": 0.056,
+          "current": 15.362,
+          "logCurrent": 1.186
+        },
+        {
+          "voltage": 0.066,
+          "current": 18.685,
+          "logCurrent": 1.271
+        },
+        {
+          "voltage": 0.077,
+          "current": 22.727,
+          "logCurrent": 1.357
+        },
+        {
+          "voltage": 0.087,
+          "current": 27.643,
+          "logCurrent": 1.442
+        },
+        {
+          "voltage": 0.097,
+          "current": 33.623,
+          "logCurrent": 1.527
+        },
+        {
+          "voltage": 0.107,
+          "current": 40.897,
+          "logCurrent": 1.612
+        },
+        {
+          "voltage": 0.117,
+          "current": 49.744,
+          "logCurrent": 1.697
+        },
+        {
+          "voltage": 0.128,
+          "current": 60.505,
+          "logCurrent": 1.782
+        },
+        {
+          "voltage": 0.138,
+          "current": 73.593,
+          "logCurrent": 1.867
+        },
+        {
+          "voltage": 0.148,
+          "current": 89.513,
+          "logCurrent": 1.952
+        },
+        {
+          "voltage": 0.158,
+          "current": 108.88,
+          "logCurrent": 2.037
+        },
+        {
+          "voltage": 0.168,
+          "current": 132.43,
+          "logCurrent": 2.122
+        },
+        {
+          "voltage": 0.179,
+          "current": 161.08,
+          "logCurrent": 2.207
+        },
+        {
+          "voltage": 0.189,
+          "current": 195.92,
+          "logCurrent": 2.292
+        },
+        {
+          "voltage": 0.199,
+          "current": 238.31,
+          "logCurrent": 2.377
+        },
+        {
+          "voltage": 0.209,
+          "current": 289.86,
+          "logCurrent": 2.462
+        },
+        {
+          "voltage": 0.219,
+          "current": 352.56,
+          "logCurrent": 2.547
+        },
+        {
+          "voltage": 0.23,
+          "current": 428.83,
+          "logCurrent": 2.632
+        },
+        {
+          "voltage": 0.24,
+          "current": 521.59,
+          "logCurrent": 2.717
+        },
+        {
+          "voltage": 0.25,
+          "current": 634.43,
+          "logCurrent": 2.802
+        }
+      ],
+      "timestamp": "2026-10-28T18:00:58.722Z"
+    }
+  ],
+  "calibrations": [
+    {
+      "id": "cal_1",
+      "electrode": "Reference Electrode (Ag/AgCl)",
+      "offset": "+0.002 V",
+      "slope": "99.2%",
+      "operator": "Dr. Alex Carter",
+      "status": "Calibrated",
+      "timestamp": "2026-07-14T09:00:00Z"
+    },
+    {
+      "id": "cal_2",
+      "electrode": "Working Electrode (Platinum)",
+      "offset": "-0.001 V",
+      "slope": "98.7%",
+      "operator": "Dr. Alex Carter",
+      "status": "Calibrated",
+      "timestamp": "2026-07-13T08:30:00Z"
+    }
+  ],
+  "discussion": [
+    {
+      "id": "msg_1",
+      "sender": "Dr. Alex Carter",
+      "role": "Senior Chemist",
+      "content": "Potentiostat channel 3 calibrated. Baseline drift is under 0.2 mV.",
+      "timestamp": "2026-07-14T11:00:00Z"
+    },
+    {
+      "id": "msg_2",
+      "sender": "Sarah Jenkins",
+      "role": "Research Associate",
+      "content": "Great, I'll run the high-temperature sweep scans on Carbon Steel 1018 next.",
+      "timestamp": "2026-07-14T11:15:00Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert_1",
+      "title": "Passivation breakdown detected",
+      "description": "Channel 2 current densities exceeded 100 µA/cm² on Carbon Steel 1018.",
+      "severity": "Warning",
+      "status": "Active",
+      "timestamp": "2026-07-14T12:32:00Z"
+    },
+    {
+      "id": "alert_2",
+      "title": "Electrolyte temperature drift",
+      "description": "Temperature sensor on Cell B reads 28.5°C (Target: 25.0°C).",
+      "severity": "Info",
+      "status": "Resolved",
+      "timestamp": "2026-07-14T10:45:00Z"
+    }
+  ],
+  "settings": {
+    "potentiostatIp": "192.168.1.105",
+    "samplingRateMs": 250,
+    "safetyCutoffV": 1.5,
+    "autoBackupEnabled": true,
+    "cloudSyncEnabled": false
+  }
+}

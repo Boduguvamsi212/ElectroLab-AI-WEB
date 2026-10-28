@@ -1,0 +1,24 @@
+.sidebar{
+  width:260px;
+  height:100vh;
+  overflow-y:auto;
+  background:#162B6F;
+  color:white;
+  padding:20px;
+}
+
+.menu-item{
+  display:flex;
+  align-items:center;
+  padding:12px;
+  margin-top:10px;
+  border-radius:10px;
+  background:#1d3a94;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.menu-item:hover{
+  background:#2d6cff;
+  transform:translateX(5px);
+}

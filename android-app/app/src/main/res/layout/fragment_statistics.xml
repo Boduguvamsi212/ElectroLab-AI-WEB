@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card_glass"
+            android:padding="16dp" android:layout_marginBottom="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Corrosion Rate Statistics"
+                android:textColor="@color/colorCyan" android:textSize="18sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Statistical analysis of all polarization sweep experiments."
+                android:textColor="@color/colorTextSecondary" android:textSize="12sp"
+                android:layout_marginTop="6dp" />
+        </LinearLayout>
+
+        <!-- Stats grid -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="12dp">
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@drawable/bg_card_glass" android:padding="14dp"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Min Rate" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                <TextView android:id="@+id/tv_stat_min" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="2.1 mpy"
+                    android:textColor="@color/colorSuccess" android:textSize="20sp"
+                    android:textStyle="bold" android:fontFamily="monospace" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="SS 316L" android:textColor="@color/colorTextMuted" android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@drawable/bg_card_glass" android:padding="14dp"
+                android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Max Rate" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                <TextView android:id="@+id/tv_stat_max" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="34.7 mpy"
+                    android:textColor="@color/colorDanger" android:textSize="20sp"
+                    android:textStyle="bold" android:fontFamily="monospace" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Carbon Steel" android:textColor="@color/colorTextMuted" android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="12dp">
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@drawable/bg_card_glass" android:padding="14dp"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Average" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                <TextView android:id="@+id/tv_stat_avg" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="11.3 mpy"
+                    android:textColor="@color/colorCyan" android:textSize="20sp"
+                    android:textStyle="bold" android:fontFamily="monospace" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="All materials" android:textColor="@color/colorTextMuted" android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:background="@drawable/bg_card_glass" android:padding="14dp"
+                android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Std. Deviation" android:textColor="@color/colorTextSecondary" android:textSize="11sp" />
+                <TextView android:id="@+id/tv_stat_std" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="±4.2 mpy"
+                    android:textColor="@color/colorWarning" android:textSize="20sp"
+                    android:textStyle="bold" android:fontFamily="monospace" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="148 experiments" android:textColor="@color/colorTextMuted" android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Distribution by material -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card_glass"
+            android:padding="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Distribution by Material"
+                android:textColor="@color/colorPurple" android:textSize="14sp"
+                android:textStyle="bold" android:layout_marginBottom="12dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Carbon Steel 1018  ········  63 runs (42.6%)\nStainless Steel 316L  ·····  41 runs (27.7%)\nAlloy C276 (Hastelloy) ····  22 runs (14.9%)\nTitanium Grade 5  ·········  13 runs  (8.8%)\nCopper-Nickel 90/10  ······   9 runs  (6.1%)"
+                android:textColor="@color/colorTextSecondary" android:textSize="12sp"
+                android:fontFamily="monospace" android:lineSpacingMultiplier="1.7" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

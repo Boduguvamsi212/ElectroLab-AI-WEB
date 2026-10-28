@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background palette -->
+    <color name="colorBgDeep">#091336</color>
+    <color name="colorBgMid">#0e1e5b</color>
+    <color name="colorBgLight">#1b2b62</color>
+    <color name="colorCardBg">#1a2a5e</color>
+    <color name="colorCardBgDark">#0d1a4a</color>
+    <color name="colorDrawerBg">#07102e</color>
+
+    <!-- Accent colors -->
+    <color name="colorCyan">#06B6D4</color>
+    <color name="colorCyanDark">#0891B2</color>
+    <color name="colorCyanLight">#67E8F9</color>
+    <color name="colorPurple">#A855F7</color>
+    <color name="colorPurpleDark">#7C3AED</color>
+    <color name="colorIndigo">#818CF8</color>
+    <color name="colorIndigoLight">#A5B4FC</color>
+    <color name="colorIndigoDark">#4F46E5</color>
+    <color name="colorBlue">#3B82F6</color>
+
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#A5B4FC</color>
+    <color name="colorTextMuted">#6272A4</color>
+    <color name="colorTextHint">#4B5563</color>
+
+    <!-- Status colors -->
+    <color name="colorSuccess">#4ADE80</color>
+    <color name="colorSuccessBg">#0D2D1A</color>
+    <color name="colorDanger">#F87171</color>
+    <color name="colorDangerBg">#2D0D0D</color>
+    <color name="colorWarning">#FBBF24</color>
+    <color name="colorWarningBg">#2D1F0D</color>
+
+    <!-- Borders -->
+    <color name="colorBorderCyan">#2006B6D4</color>
+    <color name="colorBorderBlue">#301e40af</color>
+    <color name="colorDivider">#1AFFFFFF</color>
+
+    <!-- Material theme -->
+    <color name="colorPrimary">#0e1e5b</color>
+    <color name="colorPrimaryDark">#091336</color>
+    <color name="colorAccent">#06B6D4</color>
+    <color name="colorSurface">#1a2a5e</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="colorBackground">#091336</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

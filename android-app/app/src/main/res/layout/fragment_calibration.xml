@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card_glass"
+            android:padding="16dp" android:layout_marginBottom="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Electrochemical Electrode Calibration"
+                android:textColor="@color/colorCyan" android:textSize="18sp" android:textStyle="bold" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Calibrate reference electrode offsets vs. standard hydrogen electrodes (SHE)."
+                android:textColor="@color/colorTextSecondary" android:textSize="12sp"
+                android:layout_marginTop="6dp" android:lineSpacingMultiplier="1.4" />
+        </LinearLayout>
+
+        <!-- Calibrate form -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card_glass"
+            android:padding="16dp" android:layout_marginBottom="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Reference Electrode Configuration"
+                android:textColor="@color/colorCyan" android:textSize="14sp" android:textStyle="bold"
+                android:layout_marginBottom="14dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Electrode Compound Type" android:textColor="@color/colorTextSecondary"
+                android:textSize="11sp" android:layout_marginBottom="6dp" />
+
+            <Spinner android:id="@+id/spinner_electrode" android:layout_width="match_parent"
+                android:layout_height="48dp" android:background="@drawable/shape_input_bg"
+                android:paddingStart="12dp" android:layout_marginBottom="16dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Measured Cell Zero Offset (mV)" android:textColor="@color/colorTextSecondary"
+                android:textSize="11sp" android:layout_marginBottom="6dp" />
+
+            <EditText android:id="@+id/et_offset" android:layout_width="match_parent"
+                android:layout_height="48dp" android:background="@drawable/shape_input_bg"
+                android:hint="1.24" android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextPrimary" android:inputType="numberDecimal"
+                android:fontFamily="monospace" android:paddingStart="12dp" android:paddingEnd="12dp"
+                android:layout_marginBottom="20dp" />
+
+            <Button android:id="@+id/btn_calibrate" android:layout_width="match_parent"
+                android:layout_height="52dp" android:text="Execute Zero Calibration Scan"
+                android:textColor="@color/white" android:textStyle="bold"
+                android:background="@drawable/btn_cyan_gradient" />
+
+            <ProgressBar android:id="@+id/progress_cal" android:layout_width="30dp"
+                android:layout_height="30dp" android:layout_gravity="center"
+                android:layout_marginTop="12dp" android:indeterminateTint="@color/colorCyan"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- Calibration logs -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card_glass"
+            android:padding="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Calibration Logs" android:textColor="@color/colorPurple"
+                android:textSize="14sp" android:textStyle="bold" android:layout_marginBottom="12dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_calibration_logs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

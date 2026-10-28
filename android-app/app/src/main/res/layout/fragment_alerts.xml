@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@drawable/bg_card_glass"
+        android:padding="16dp" android:layout_marginBottom="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Safety Alerts &amp; Notifications"
+            android:textColor="@color/colorDanger" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Active safety warnings, voltage over-limits, and electrode connection faults."
+            android:textColor="@color/colorTextSecondary" android:textSize="12sp"
+            android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+    <ProgressBar android:id="@+id/progress_alerts" android:layout_width="40dp"
+        android:layout_height="40dp" android:layout_gravity="center"
+        android:indeterminateTint="@color/colorCyan" android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_alerts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+
+</LinearLayout>

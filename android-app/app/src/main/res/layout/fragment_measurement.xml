@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_glass"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrochemical Measurement Configuration"
+                android:textColor="@color/colorCyan"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set electrode polarization voltage sweep limits, scanning rate, and electrolyte conditions."
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp"
+                android:layout_marginTop="6dp"
+                android:lineSpacingMultiplier="1.4" />
+        </LinearLayout>
+
+        <!-- Error banner -->
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/badge_danger"
+            android:textColor="@color/colorDanger"
+            android:textSize="12sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone" />
+
+        <!-- Parameters card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_glass"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚙  Potentiodynamic Parameter Setup"
+                android:textColor="@color/colorCyan"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Material -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Target Alloy Material" android:textColor="@color/colorTextSecondary"
+                android:textSize="11sp" android:layout_marginBottom="6dp" />
+            <Spinner
+                android:id="@+id/spinner_material"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/shape_input_bg"
+                android:paddingStart="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- pH -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Electrolyte pH value" android:textColor="@color/colorTextSecondary"
+                android:textSize="11sp" android:layout_marginBottom="6dp" />
+            <EditText
+                android:id="@+id/et_ph"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/shape_input_bg"
+                android:hint="7.15"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextPrimary"
+                android:inputType="numberDecimal"
+                android:fontFamily="monospace"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Initial Voltage -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Initial Sweep Voltage (V vs OCP)" android:textColor="@color/colorTextSecondary"
+                android:textSize="11sp" android:layout_marginBottom="6dp" />
+            <EditText
+                android:id="@+id/et_init_voltage"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/shape_input_bg"
+                android:hint="-0.25"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextPrimary"
+                android:inputType="numberDecimal|numberSigned"
+                android:fontFamily="monospace"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Final Voltage -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Final Sweep Voltage (V vs OCP)" android:textColor="@color/colorTextSecondary"
+                android:textSize="11sp" android:layout_marginBottom="6dp" />
+            <EditText
+                android:id="@+id/et_final_voltage"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/shape_input_bg"
+                android:hint="0.25"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextPrimary"
+                android:inputType="numberDecimal|numberSigned"
+                android:fontFamily="monospace"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Scan Rate -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Scan Sweep Rate (mV/s)" android:textColor="@color/colorTextSecondary"
+                android:textSize="11sp" android:layout_marginBottom="6dp" />
+            <EditText
+                android:id="@+id/et_scan_rate"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/shape_input_bg"
+                android:hint="0.166"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextPrimary"
+                android:inputType="numberDecimal"
+                android:fontFamily="monospace"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Temperature -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Solution Temperature (°C)" android:textColor="@color/colorTextSecondary"
+                android:textSize="11sp" android:layout_marginBottom="6dp" />
+            <EditText
+                android:id="@+id/et_temperature"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/shape_input_bg"
+                android:hint="25.0"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextPrimary"
+                android:inputType="numberDecimal"
+                android:fontFamily="monospace"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Start Sweep button -->
+            <Button
+                android:id="@+id/btn_start_sweep"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="▶  Start Sweep Scan"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:background="@drawable/btn_cyan_gradient" />
+
+            <ProgressBar
+                android:id="@+id/progress_sweep"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:indeterminateTint="@color/colorCyan"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Info card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_glass"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ℹ  Experiment Info"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Three-electrode polarization cell\n• Calculates polarization resistance (Rp)\n• ASTM-G5 Standard repeatability"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp"
+                android:lineSpacingMultiplier="1.6" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@drawable/bg_card_glass"
+        android:padding="16dp" android:layout_marginBottom="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Alloy Material Database" android:textColor="@color/colorCyan"
+            android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Electrochemical properties of tested alloy materials with pitting resistance and corrosion classifications."
+            android:textColor="@color/colorTextSecondary" android:textSize="12sp"
+            android:layout_marginTop="6dp" android:lineSpacingMultiplier="1.4" />
+    </LinearLayout>
+
+    <ProgressBar android:id="@+id/progress_materials" android:layout_width="40dp"
+        android:layout_height="40dp" android:layout_gravity="center"
+        android:indeterminateTint="@color/colorCyan" android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_materials"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+
+</LinearLayout>

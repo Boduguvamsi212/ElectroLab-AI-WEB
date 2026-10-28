@@ -1,0 +1,17 @@
+{
+  "name": "electrolab-selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium WebDriver End-to-End Automated Test Suite for ElectroLab AI Web",
+  "main": "test-runner.js",
+  "scripts": {
+    "test": "node test-runner.js",
+    "test:auth": "node auth.test.js",
+    "test:sweep": "node sweep.test.js",
+    "test:tafel": "node tafel.test.js",
+    "test:navigation": "node navigation.test.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0",
+    "chromedriver": "^131.0.0"
+  }
+}
