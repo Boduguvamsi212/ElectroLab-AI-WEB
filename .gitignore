@@ -15,6 +15,12 @@ android-app/build/
 *.iml
 .vscode/
 
+# Android App files (separated into dedicated mobile repo)
+android-app/
+*.apk
+testing/appium/
+qrcode_apk.png
+
 # Logs & temp
 *.log
 npm-debug.log*
