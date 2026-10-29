@@ -30,6 +30,12 @@ app.get("/load-report", (req, res) => {
   res.download(reportPath, "ElectroLab_AI_Load_Testing_Report.xlsx");
 });
 
+// Excel Vulnerability / Security Audit Report Download Route
+app.get("/security-report", (req, res) => {
+  const reportPath = path.resolve(__dirname, "../../ElectroLab_AI_Vulnerability_Security_Report_500.xlsx");
+  res.download(reportPath, "ElectroLab_AI_Vulnerability_Security_Report_500.xlsx");
+});
+
 // Mobile Download Web Page
 app.get("/download", (req, res) => {
   res.send(`
