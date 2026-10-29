@@ -24,6 +24,12 @@ app.get("/report", (req, res) => {
   res.download(reportPath, "ElectroLab_AI_Comprehensive_Test_Report_500.xlsx");
 });
 
+// Excel Baseline / Load Testing Report Download Route
+app.get("/load-report", (req, res) => {
+  const reportPath = path.resolve(__dirname, "../../ElectroLab_AI_Load_Testing_Report.xlsx");
+  res.download(reportPath, "ElectroLab_AI_Load_Testing_Report.xlsx");
+});
+
 // Mobile Download Web Page
 app.get("/download", (req, res) => {
   res.send(`

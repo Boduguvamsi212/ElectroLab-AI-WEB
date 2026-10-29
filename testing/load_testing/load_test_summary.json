@@ -1,0 +1,161 @@
+{
+  "summary": {
+    "duration_sec": 62.6,
+    "total_requests": 5817,
+    "successful_requests": 5817,
+    "failed_requests": 0,
+    "rps": 92.9,
+    "avg_latency_ms": 993.9,
+    "min_latency_ms": 33.3,
+    "max_latency_ms": 2383.0,
+    "p50_latency_ms": 982.9,
+    "p90_latency_ms": 1441.8,
+    "p95_latency_ms": 1533.6,
+    "p99_latency_ms": 1737.7,
+    "success_rate": 100.0
+  },
+  "platform_stats": {
+    "Web Workstation": {
+      "users": 50,
+      "total_requests": 2958,
+      "rps": 47.2,
+      "avg_latency_ms": 976.9,
+      "min_latency_ms": 33.3,
+      "max_latency_ms": 2370.0,
+      "p95_latency_ms": 1511.3,
+      "success_rate": 100.0
+    },
+    "Mobile Android App": {
+      "users": 50,
+      "total_requests": 2859,
+      "rps": 45.7,
+      "avg_latency_ms": 1011.5,
+      "min_latency_ms": 170.0,
+      "max_latency_ms": 2383.0,
+      "p95_latency_ms": 1565.1,
+      "success_rate": 100.0
+    }
+  },
+  "endpoint_stats": [
+    {
+      "url": "/api/auth/login",
+      "method": "POST",
+      "scope": "Mobile Android App",
+      "calls": 401,
+      "rps": 6.4,
+      "avg_ms": 978.8,
+      "min_ms": 246.0,
+      "max_ms": 2028.2,
+      "p95_ms": 1507.1,
+      "errors": 0
+    },
+    {
+      "url": "/api/auth/profile",
+      "method": "GET",
+      "scope": "Mobile Android App",
+      "calls": 420,
+      "rps": 6.7,
+      "avg_ms": 974.3,
+      "min_ms": 245.5,
+      "max_ms": 2216.7,
+      "p95_ms": 1525.4,
+      "errors": 0
+    },
+    {
+      "url": "/api/calibration",
+      "method": "GET",
+      "scope": "Mobile Android App",
+      "calls": 397,
+      "rps": 6.3,
+      "avg_ms": 983.4,
+      "min_ms": 218.2,
+      "max_ms": 2222.6,
+      "p95_ms": 1525.0,
+      "errors": 0
+    },
+    {
+      "url": "/api/diagnostics",
+      "method": "GET",
+      "scope": "Shared (Web & App)",
+      "calls": 904,
+      "rps": 14.4,
+      "avg_ms": 980.5,
+      "min_ms": 195.1,
+      "max_ms": 2215.3,
+      "p95_ms": 1508.5,
+      "errors": 0
+    },
+    {
+      "url": "/api/materials",
+      "method": "GET",
+      "scope": "Web Workstation",
+      "calls": 464,
+      "rps": 7.4,
+      "avg_ms": 960.9,
+      "min_ms": 33.3,
+      "max_ms": 1856.4,
+      "p95_ms": 1494.9,
+      "errors": 0
+    },
+    {
+      "url": "/api/measurements",
+      "method": "GET",
+      "scope": "Web Workstation",
+      "calls": 531,
+      "rps": 8.5,
+      "avg_ms": 1047.1,
+      "min_ms": 147.4,
+      "max_ms": 2370.0,
+      "p95_ms": 1570.6,
+      "errors": 0
+    },
+    {
+      "url": "/api/measurements",
+      "method": "POST",
+      "scope": "Shared (Web & App)",
+      "calls": 893,
+      "rps": 14.3,
+      "avg_ms": 963.6,
+      "min_ms": 170.0,
+      "max_ms": 2218.9,
+      "p95_ms": 1510.2,
+      "errors": 0
+    },
+    {
+      "url": "/api/predictions/latest",
+      "method": "GET",
+      "scope": "Shared (Web & App)",
+      "calls": 892,
+      "rps": 14.2,
+      "avg_ms": 986.9,
+      "min_ms": 52.5,
+      "max_ms": 1732.6,
+      "p95_ms": 1519.9,
+      "errors": 0
+    },
+    {
+      "url": "/apk",
+      "method": "HEAD",
+      "scope": "Mobile Android App",
+      "calls": 426,
+      "rps": 6.8,
+      "avg_ms": 1175.7,
+      "min_ms": 255.8,
+      "max_ms": 2383.0,
+      "p95_ms": 1822.9,
+      "errors": 0
+    },
+    {
+      "url": "/download",
+      "method": "GET",
+      "scope": "Web Workstation",
+      "calls": 489,
+      "rps": 7.8,
+      "avg_ms": 939.4,
+      "min_ms": 212.3,
+      "max_ms": 2223.4,
+      "p95_ms": 1459.5,
+      "errors": 0
+    }
+  ]
+}

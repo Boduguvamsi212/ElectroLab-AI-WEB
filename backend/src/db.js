@@ -141,24 +141,51 @@ if (!fs.existsSync(DB_PATH)) {
 }
 
 class Database {
-  read() {
+  constructor() {
+    this.cache = null;
+    this.saveTimeout = null;
+    this.init();
+  }
+
+  init() {
     try {
-      const data = fs.readFileSync(DB_PATH, "utf8");
-      return JSON.parse(data);
-    } catch (err) {
-      console.error("Error reading database file, resetting to seed data:", err);
-      return initialData;
+      if (fs.existsSync(DB_PATH)) {
+        const raw = fs.readFileSync(DB_PATH, "utf8");
+        this.cache = JSON.parse(raw);
+      } else {
+        this.cache = JSON.parse(JSON.stringify(initialData));
+        fs.writeFileSync(DB_PATH, JSON.stringify(this.cache, null, 2), "utf8");
+      }
+    } catch (e) {
+      this.cache = JSON.parse(JSON.stringify(initialData));
     }
   }
 
-  write(data) {
-    try {
-      fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2), "utf8");
-      return true;
-    } catch (err) {
-      console.error("Error writing database file:", err);
-      return false;
+  read() {
+    if (!this.cache) {
+      this.init();
     }
+    return this.cache;
+  }
+
+  scheduleSave() {
+    if (this.saveTimeout) return;
+    this.saveTimeout = setTimeout(() => {
+      this.saveTimeout = null;
+      try {
+        if (this.cache) {
+          fs.writeFileSync(DB_PATH, JSON.stringify(this.cache, null, 2), "utf8");
+        }
+      } catch (err) {
+        console.error("Error writing database file:", err);
+      }
+    }, 500);
+  }
+
+  write(data) {
+    this.cache = data;
+    this.scheduleSave();
+    return true;
   }
 
   get(table) {
